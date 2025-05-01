@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Loja Limpeza Total</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🧼 Limpeza Total</h1>
+        <p>Os melhores produtos para sua casa ou empresa!</p>
+    </header>
+
+    <section class="banner">
+        <h2>Descontos especiais para grandes volumes!</h2>
+    </section>
+
+    <main>
+        <h2 class="titulo">Nossos Produtos</h2>
+        <section class="produtos">
+            
+        <div class="produto">
+            <img src="https://imgs.search.brave.com/pGm71IJglobZFGJrEsVk5IdUnOIARmzsfSGBjSYpQN4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG52/Mi5tb292aW4uY29t/LmJyL2Ryc3Vwcmkv/aW1hZ2Vucy9wcm9k/dXRvcy9saXN0YS92/YXNzb3VyYS1ub3Zp/Y2EtYmV0dGFuaW4t/LWZjZTM1NDc0ZTFi/YmNjODQ0MTViOGUw/NGU1YjUyODVjLmpw/Zw" alt="Vassoura Multiuso">
+            <h3>Vassoura Multiuso</h3>
+            <p>Cerdas macias, ideal para pisos lisos.</p>
+            <span>R$ 14.90</span>
+            <button onclick="adicionarAoCarrinho('Vassoura Multiuso', 14.9)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="https://imgs.search.brave.com/Rcwk6whi8sLKfMCljgWjhd-54A4rtAnT_ks1gOTpiZw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGNkbi5jb20u/YnIvaW1nL2ltZ19w/cm9kLzg0NzYwOC9y/b2RvXzQwX2NtXzkz/MTNfMV82NWJlYjg1/N2YyNDBiOWY2NzFh/OWQzYzc2NDJhMmVm/MS5qcGc" alt="Rodo 40cm">
+            <h3>Rodo 40cm</h3>
+            <p>Alta durabilidade e cabo reforçado.</p>
+            <span>R$ 11.00</span>
+            <button onclick="adicionarAoCarrinho('Rodo 40cm', 11.0)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="https://imgs.search.brave.com/cnW54k8RWv3NcCr4YKDnx4ugtZGYcktD1XVSk7VhCwo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9kMTN6/NXhhdm4wcXR0OS5j/bG91ZGZyb250Lm5l/dC9DdXN0b20vQ29u/dGVudC9Qcm9kdWN0/cy8xMy85OC8xMzk4/MDJfcGFuby1kZS1j/aGFvLTkweDYwY20t/ZW54dWdhLW1haXMt/bWVzY2xhLTE3NzRf/bTFfNjM3OTU4MDU5/ODg3OTg1ODM1Lndl/YnA" alt="Pano de Chão">
+            <h3>Pano de Chão</h3>
+            <p>Algodão puro, superabsorvente.</p>
+            <span>R$ 6.50</span>
+            <button onclick="adicionarAoCarrinho('Pano de Chão', 6.5)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="https://imgs.search.brave.com/hq8YZPWPb4xpUBd1gyO_HkAaUW8IFBDvrgUhhSZG9Rg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/aXJyb2JhLmNvbS5i/ci9maXQtaW4vNjAw/eDYwMC9maWx0ZXJz/OmZpbGwodHJhbnNw/YXJlbnQpOnF1YWxp/dHkoODApL25vcm9u/aGFpL2NhdGFsb2cv/bG9qYS9kZXRlcmdl/bnRlLWxpcXVpZG8t/bmV1dHJvLTVscmVz/dWx0YWRvLnBuZw" alt="Detergente Neutro">
+            <h3>Detergente Neutro</h3>
+            <p>500ml - limpa sem agredir.</p>
+            <span>R$ 3.20</span>
+            <button onclick="adicionarAoCarrinho('Detergente Neutro', 3.2)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="https://imgs.search.brave.com/5AbUzBonRv5FZSykLHK_dZ_1tl75LvlewRaVsCxfa5c/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZXBl/bC52dGV4aW1nLmNv/bS5ici9hcnF1aXZv/cy9pZHMvMTYwMTA5/LTQxMC00MTAvOTI4/Mi1wYWNvdGUuanBn/P3Y9NjM1ODg5OTA3/MjIyODAwMDAw" alt="Esponja Multiuso">
+            <h3>Esponja Multiuso</h3>
+            <p>2 unidades - leve e resistente.</p>
+            <span>R$ 4.00</span>
+            <button onclick="adicionarAoCarrinho('Esponja Multiuso', 4.0)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="imagens/produto6.jpg" alt="Produto 6">
+            <h3>Produto 6</h3>
+            <p>Descrição do produto 6. Limpeza garantida!</p>
+            <span>R$ 11.00</span>
+            <button onclick="adicionarAoCarrinho('Produto 6', 11.0)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="imagens/produto7.jpg" alt="Produto 7">
+            <h3>Produto 7</h3>
+            <p>Descrição do produto 7. Limpeza garantida!</p>
+            <span>R$ 12.00</span>
+            <button onclick="adicionarAoCarrinho('Produto 7', 12.0)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="imagens/produto8.jpg" alt="Produto 8">
+            <h3>Produto 8</h3>
+            <p>Descrição do produto 8. Limpeza garantida!</p>
+            <span>R$ 13.00</span>
+            <button onclick="adicionarAoCarrinho('Produto 8', 13.0)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="imagens/produto9.jpg" alt="Produto 9">
+            <h3>Produto 9</h3>
+            <p>Descrição do produto 9. Limpeza garantida!</p>
+            <span>R$ 14.00</span>
+            <button onclick="adicionarAoCarrinho('Produto 9', 14.0)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="imagens/produto10.jpg" alt="Produto 10">
+            <h3>Produto 10</h3>
+            <p>Descrição do produto 10. Limpeza garantida!</p>
+            <span>R$ 15.00</span>
+            <button onclick="adicionarAoCarrinho('Produto 10', 15.0)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="imagens/produto11.jpg" alt="Produto 11">
+            <h3>Produto 11</h3>
+            <p>Descrição do produto 11. Limpeza garantida!</p>
+            <span>R$ 16.00</span>
+            <button onclick="adicionarAoCarrinho('Produto 11', 16.0)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="imagens/produto12.jpg" alt="Produto 12">
+            <h3>Produto 12</h3>
+            <p>Descrição do produto 12. Limpeza garantida!</p>
+            <span>R$ 17.00</span>
+            <button onclick="adicionarAoCarrinho('Produto 12', 17.0)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="imagens/produto13.jpg" alt="Produto 13">
+            <h3>Produto 13</h3>
+            <p>Descrição do produto 13. Limpeza garantida!</p>
+            <span>R$ 18.00</span>
+            <button onclick="adicionarAoCarrinho('Produto 13', 18.0)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="imagens/produto14.jpg" alt="Produto 14">
+            <h3>Produto 14</h3>
+            <p>Descrição do produto 14. Limpeza garantida!</p>
+            <span>R$ 19.00</span>
+            <button onclick="adicionarAoCarrinho('Produto 14', 19.0)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="imagens/produto15.jpg" alt="Produto 15">
+            <h3>Produto 15</h3>
+            <p>Descrição do produto 15. Limpeza garantida!</p>
+            <span>R$ 20.00</span>
+            <button onclick="adicionarAoCarrinho('Produto 15', 20.0)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="imagens/produto16.jpg" alt="Produto 16">
+            <h3>Produto 16</h3>
+            <p>Descrição do produto 16. Limpeza garantida!</p>
+            <span>R$ 21.00</span>
+            <button onclick="adicionarAoCarrinho('Produto 16', 21.0)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="imagens/produto17.jpg" alt="Produto 17">
+            <h3>Produto 17</h3>
+            <p>Descrição do produto 17. Limpeza garantida!</p>
+            <span>R$ 22.00</span>
+            <button onclick="adicionarAoCarrinho('Produto 17', 22.0)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="imagens/produto18.jpg" alt="Produto 18">
+            <h3>Produto 18</h3>
+            <p>Descrição do produto 18. Limpeza garantida!</p>
+            <span>R$ 23.00</span>
+            <button onclick="adicionarAoCarrinho('Produto 18', 23.0)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="imagens/produto19.jpg" alt="Produto 19">
+            <h3>Produto 19</h3>
+            <p>Descrição do produto 19. Limpeza garantida!</p>
+            <span>R$ 24.00</span>
+            <button onclick="adicionarAoCarrinho('Produto 19', 24.0)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="imagens/produto20.jpg" alt="Produto 20">
+            <h3>Produto 20</h3>
+            <p>Descrição do produto 20. Limpeza garantida!</p>
+            <span>R$ 25.00</span>
+            <button onclick="adicionarAoCarrinho('Produto 20', 25.0)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="imagens/produto21.jpg" alt="Produto 21">
+            <h3>Produto 21</h3>
+            <p>Descrição do produto 21. Limpeza garantida!</p>
+            <span>R$ 26.00</span>
+            <button onclick="adicionarAoCarrinho('Produto 21', 26.0)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="imagens/produto22.jpg" alt="Produto 22">
+            <h3>Produto 22</h3>
+            <p>Descrição do produto 22. Limpeza garantida!</p>
+            <span>R$ 27.00</span>
+            <button onclick="adicionarAoCarrinho('Produto 22', 27.0)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="imagens/produto23.jpg" alt="Produto 23">
+            <h3>Produto 23</h3>
+            <p>Descrição do produto 23. Limpeza garantida!</p>
+            <span>R$ 28.00</span>
+            <button onclick="adicionarAoCarrinho('Produto 23', 28.0)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="imagens/produto24.jpg" alt="Produto 24">
+            <h3>Produto 24</h3>
+            <p>Descrição do produto 24. Limpeza garantida!</p>
+            <span>R$ 29.00</span>
+            <button onclick="adicionarAoCarrinho('Produto 24', 29.0)">Comprar</button>
+        </div>
+    
+        <div class="produto">
+            <img src="imagens/produto25.jpg" alt="Produto 25">
+            <h3>Produto 25</h3>
+            <p>Descrição do produto 25. Limpeza garantida!</p>
+            <span>R$ 30.00</span>
+            <button onclick="adicionarAoCarrinho('Produto 25', 30.0)">Comprar</button>
+        </div>
+    
+        </section>
+        
+    <aside style="background:#f1f1f1; padding:20px; border-radius:10px; margin: 40px auto; max-width: 600px;">
+        <h2>Carrinho</h2>
+        <ul id="lista-carrinho" style="list-style:none; padding-left:0;"></ul>
+        <p id="total-carrinho"><strong>Total: R$ 0.00</strong></p>
+    </aside>
+
+    </main>
+
+    <footer>
+        <p>Contato: (11) 99999-9999 | atendimento@limpezatotal.com.br</p>
+        <p>&copy; 2025 Limpeza Total - Todos os direitos reservados.</p>
+    </footer>
+    
+<script>
+let carrinho = [];
+
+function adicionarAoCarrinho(nome, preco) {
+    carrinho.push({ nome, preco });
+    alert(`${nome} foi adicionado ao carrinho!`);
+    atualizarCarrinho();
+}
+
+function atualizarCarrinho() {
+    const lista = document.getElementById('lista-carrinho');
+    const total = document.getElementById('total-carrinho');
+    lista.innerHTML = '';
+    let totalValor = 0;
+
+    carrinho.forEach(item => {
+        const li = document.createElement('li');
+        li.textContent = `${item.nome} - R$ ${item.preco.toFixed(2)}`;
+        lista.appendChild(li);
+        totalValor += item.preco;
+    });
+
+    total.textContent = `Total: R$ ${totalValor.toFixed(2)}`;
+}
+</script>
+
+</body>
+</html>
